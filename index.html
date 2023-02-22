@@ -1,0 +1,127 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="imagen/909212.png">
+    
+    
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    
+    <link rel="preload"href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+    
+    <title>Mi curriculum vitae</title>
+</head>
+<body id="imchange">
+
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html"> 
+                    
+                    <h1 class="logo__nombre no-margin centrar-texto ">Mi <span class="logo__bold"> Curriculum</span></h1>
+                </a>
+
+               
+                <nav class="navegacion">
+                 <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Augusto Sánchez</h2>
+            <h4 class="web-developer">Web Developer</h4>
+        </div>
+    </header>
+
+    <form class="centrar-texto">
+        <select id="miSeleccion" name="BackgroundChanger" onchange="colorChanger()">
+        <option value="">Color</option>
+        <option value="#e1e1e1">Gris</option>
+        <option value="#a5cedc">Azul</option>
+        <option value="#b1e2a8">Verde</option>
+        </select>
+    </form>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Sobre mi</h3>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img loading="lazy"  src="imagen/11.jpg" alt="imagen perfil">
+                </div>  
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Presentación</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eveniet modi necessitatibus ut aspernatur quia cum ducimus ex sequi molestias, harum officiis magni nisi accusantium nihil id beatae maiores neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sequi dolorum dolor nesciunt aliquam voluptatibus natus eum laborum officia facilis, illo officiis pariatur ipsa quod veritatis. Officiis dolores natus unde.</p>
+                    </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Experiencia</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eveniet modi necessitatibus ut aspernatur quia cum ducimus ex sequi molestias, harum officiis magni nisi accusantium nihil id beatae maiores neque!</p>
+                    </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Habilidades</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eveniet modi necessitatibus ut aspernatur quia cum ducimus ex sequi molestias, harum officiis magni nisi accusantium nihil id beatae maiores neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa earum asperiores dolorum obcaecati numquam, quis minus repudiandae aliquam esse temporibus vel veniam totam hic eaque id impedit iusto corrupti libero. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus enim nisi, laudantium natus quo debitis earum, unde sit ut impedit non! Eveniet rerum temporibus facilis recusandae! Quam beatae et culpa.</p>
+                    </div>
+            </article>
+        </main>
+        <asaide class="sidebar">  
+            <h3 class="informacion">Información extra</h3>
+                <ul class="info no-padding no-margin">
+                    <li class="widget-info">
+                        <h4 class="idiomas no-margin">Idiomas</h4>
+                        <p class="no-margin widget-info__label">Castellano</p>
+                        <p class="no-margin widget-info__label">Portuges</p>
+                        <p class="no-margin widget-info__label">Inglés</p>
+                    </li>
+                
+                    <li class="widget-info">
+                        <h4 class="hobbies no-margin">Hobbies</h4>
+                        <p class="no-margin widget-info__label">Música</p>
+                        <p class="no-margin widget-info__label">Ver series</p>
+                        <p class="no-margin widget-info__label">Futbol</p>
+                    </li>
+                </ul>
+        </asaide>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html"> 
+                    <h1 class="logo__nombre no-margin centrar-texto ">Mi <span class="logo__bold">Curriculum</span></h1> 
+                </a>
+
+                <nav class="navegacion">
+                 <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <script src="js/script.js">
+
+        </script>
+    </footer>
+</body>
+</html>
